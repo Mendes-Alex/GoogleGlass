@@ -1,0 +1,94 @@
+@charset "UTF-8";
+ul#album-fotos{
+	width: 850px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+	text-indent: 5px;
+}
+ul#album-fotos li{
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 50px;
+	border: 1px solid;
+	background-color: white;
+	box-shadow: 1px 1px 3px rgb(114, 111, 111);
+	-webkit-transition: all .5s ease-in;
+}
+ul#album-fotos li span{
+	opacity: 0;
+	
+	background-color:white;
+	font-size: 10pt;
+	line-height: 370px;
+}	
+ul#album-fotos li:hover span{
+	opacity: 1;
+}
+ul#album-fotos li:hover{
+	-webkit-transform: scale(1.5);
+	
+}
+ul#album-fotos li#foto01:hover{
+	background-position: 0px 0px;
+	background-size: 300px 250px;
+}
+ul#album-fotos li#foto01{
+	background: url('galeria-07.jpg')no-repeat;
+	background-position: 50% 50%;
+	background-size: 300px 250px;
+	background-color:white;
+}
+ul#album-fotos li#foto02:hover{
+	background-position: 0px 0px;
+	background-size: 300px 250px;
+}
+ul#album-fotos li#foto02{
+	background: url('galeria-02.jpg')no-repeat;
+	background-position:50% 50%;
+	background-size: 300px 250px;
+	background-color:white;
+}
+ul#album-fotos li#foto03:hover{
+	background-position: 0px 0px;
+	background-size: 300px 250px;
+
+}
+ul#album-fotos li#foto03{
+	background: url('galeria-03.jpg')no-repeat;
+	background-position:50% 50%;
+	background-size: 400px 250px;
+	background-color:white;
+}
+ul#album-fotos li#foto04:hover{
+	background-position: 0px 0px;
+	background-size: 300px 250px;
+}
+ul#album-fotos li#foto04{
+	background: url('galeria-04.jpg')no-repeat;
+	background-position:50% 50%;
+	background-size: 300px 250px;
+	background-color:white;
+}
+ul#album-fotos li#foto05:hover{
+	background-position: 0px 0px;
+	background-size: 300px 250px;
+}
+ul#album-fotos li#foto05{
+	background: url('galeria-05.jpg')no-repeat;
+	background-position:50% 50%;
+	background-size: 300px 250px;
+	background-color:white;
+}
+ul#album-fotos li#foto06:hover{
+	background-position: 0px 0px;
+	background-size: 300px 250px;
+}
+ul#album-fotos li#foto06{
+	background: url('galeria-06.jpg')no-repeat;
+	background-position:50% 50%;
+	background-size: 300px 250px;
+	background-color:white;
+}

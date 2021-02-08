@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face
+{
+	font-family:'FonteLogo';
+	src: url("bubblegum-sans-regular.otf");
+	
+	
+}
+body
+{
+	background: url("weißebild.jpg");
+	font-family: FonteLogo, sans-serif;
+	background-color: white;
+	color: black;
+	margin: 100px;
+}
+div#interface
+{
+	background: url("weißebild.jpg");
+	width: auto;
+	background-color: white;
+}
+p
+{
+	text-align: justify;
+	text-indent: 0px;
+}
+a
+{
+	color: black;
+}
+video#filmes
+{
+	display: block;
+	width: 400px;
+	margin: auto;
+	border-radius: 10px;
+}
+header#cabecalho img#icone
+{
+	position: absolute;
+	left: 1200px;
+	top: 120px;
+}
+header#cabecalho
+{
+	border-bottom:1px #606060 solid;
+	height: 200px;
+	background: url("glass-logo-peq.jpg") no-repeat 0px 130px;
+}
+header#cabecalho h1
+{
+	font-size: 30pt;
+	color: black;
+	text-shadow: 10px 10px 10px rgba(0,0,0,.6);
+}
+header#cabecalho h2
+{
+	color: black;
+	font-size: 15pt
+}
+/* Formatacao de imagens com Legendas*/
+figure.foto-legenda
+{ 
+	position: relative;
+	border: 8px solid white;
+	box-shadow: 10px 10px 40px black;
+	width: 50%;
+	height: 60%;
+	
+	
+	
+ }
+figure.foto-legenda img
+{
+ 	width: 100%;
+	height: 100%;
+	 
+ }
+ figure.foto-legenda figcaption
+ {
+ 	opacity: 0;
+ 	position: absolute;
+ 	top: 0px;
+ 	background-color: rgba(0,0,0,.4);
+ 	color: white;
+ 	width: 100%;
+ 	height: 100%;
+ 	padding: 10px;
+ 	box-sizing: border-box;
+ 	transition: opacity 1s;
+ }
+ figure.foto-legenda:hover figcaption
+ {
+ 	opacity: 1;
+ }
+/* Menu */
+nav#menu
+{
+	display: block;
+}
+ nav#menu ul
+ {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: 30px;
+	left: 900px;
+}
+ nav#menu li
+ {
+	font-size: 10pt;
+	display: inline-block;
+	background-color: white;
+	padding: 4px;
+	transition: background-color 5s;
+}
+nav#menu h1
+{
+	display: none;
+}
+nav#menu a
+{
+	color: black;
+	text-decoration: none;
+}
+nav#menu a:hover
+{
+	color: #9c0606;
+}
+footer#rodape
+{
+	border-bottom:1px #606060 solid;
+	height:10px;
+}
+footer#rodape p
+{
+	text-align: center;
+}
+footer#rodape a
+{
+	color: black;
+}
+table#tabelaspec
+{
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: 0px;
+}
+table#tabelaspec  td
+{
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+}
+article#noticias-principal h2
+{
+	font-size: 12pt;
+	color: black;
+	background-color: black;
+	padding: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
